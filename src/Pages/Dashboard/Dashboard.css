@@ -143,6 +143,7 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
+    padding: 0;
 }
 .card{
     display: flex;
@@ -171,16 +172,14 @@
     height: max-content;
     gap: 1rem;
     background: #fff;
-    padding:1rem 2rem 1rem 2rem;
+    padding:1rem 2rem  1rem 2rem;
 }
 .box2-4-1{
    flex: 1;
-   height: fit-content;
+   /* height: fit-content; */
+   height: 100%;
 }
-.box2-4-2{
-    flex: 1;
-   height: fit-content;
-}
+
 .card span:nth-child(1){
     font-family: 'Lato', sans-serif;
     font-weight: 700;
@@ -241,11 +240,23 @@
        
     }
     .box-2{
-        width: 100vw;
+        width: 90%;
+    }
+    #search{
+        display: none;
     }
     /* .img{
         display: none;
     } */
+
+    .box-2-1{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .right{
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
     .menu{
         display: block;
     }
@@ -287,5 +298,6 @@
         flex: none;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 }
