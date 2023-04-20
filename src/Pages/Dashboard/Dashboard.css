@@ -261,7 +261,7 @@
         align-items: center;
         justify-content: center;
     }
-    ..box2-4-2{
+    .box2-4-2{
         flex: 1;
     }
     .list{
