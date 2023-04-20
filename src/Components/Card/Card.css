@@ -1,0 +1,38 @@
+.Card{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border-radius: 20px;
+    padding: 1rem;
+    gap: 2rem;
+    box-shadow: 0 0 5px rgba(128, 128, 128, 0.332);
+}
+.parentContainer{
+    width: 100%;
+}
+
+#icon{
+    width: 24px;
+    height: 24px;
+}
+.revenue{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top:1rem;
+    line-height: 16.8px;
+}
+#data{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 33px;
+}
